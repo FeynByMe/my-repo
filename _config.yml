@@ -17,21 +17,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+locale: "en-US"
 
-title: "My Awesome Site"
-email: your-email@example.com
+title: "Diogo Freire de Andrade"
+
+email: diogo.f.andrade@tecnico.ulisboa.pt
+
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+
 baseurl: "/my-repo" # the subpath of your site, e.g. /blog
+
 url: "https://feynbyme.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: jekyllrb
+
 github_username:  Diogo Freire de Andrade
 
+logo: "/assets/images/logo_alt.png"
 # Build settings
 #theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 plugins:
   - jekyll-feed
   - jekyll-include-cache
@@ -54,6 +63,24 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
+
+atom_feed:
+  hide: "true"
+
+author:
+  name: "Diogo Freire de Andrade"
+  avatar: "/assets/images/logo_alt.png"
+  bio: "Purusing a PhD at Instituto Superior Técnico (FCT research grant). Interested in higher categories, topological field theories and factorization homology."
+  links:
+    -label: "Lisbon, Portugal"
+    icon: "fas fa-map-marker-alt"
+
+krmadown:
+  math_engine: katex
+
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
