@@ -30,7 +30,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "/my-repo" # the subpath of your site, e.g. /blog
 
-url: "https://feynbyme.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://diogofd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: jekyllrb
 
@@ -49,7 +49,7 @@ theme: minimal-mistakes-jekyll
 
 minimal_mistakes_skin: "air"
 
-repository: "FeynByMe/my-repo"
+repository: "diogofd/my-repo"
 
 defaults:
   # _posts
